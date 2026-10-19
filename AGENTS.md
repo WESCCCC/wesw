@@ -1,0 +1,2 @@
+- Business data (contact, hours, menu, WhatsApp links) lives only in src/lib/site.ts; pages read from it so the owner's info changes in one place.
+- Image registry in src/lib/images.ts flags real vs provisional photos so placeholders can be swapped without touching pages.
